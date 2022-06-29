@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="./calculat.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="input" disabled></br>
+        <button class="width" id="block1" onclick="dis('1')">1</button>
+        <button class="width" id="block2" onclick="dis('2')">2</button>
+        <button class="width" id="block3" onclick="dis('3')">3</button></br>
+        <button class="width" id="block4" onclick="dis('4')">4</button>
+        <button class="width" id="block5" onclick="dis('5')">5</button>
+        <button class="width" id="block6" onclick="dis('6')">6</button></br>
+        <button class="width" id="block7" onclick="dis('7')">7</button>
+        <button class="width" id="block8" onclick="dis('8')">8</button>
+        <button class="width" id="block9" onclick="dis('9')">9</button></br>
+        <button class="width" id="plus" onclick="dis('+')">+</button>
+        <button class="width" id="block0" onclick="dis('0')">0</button>
+        <button class="width" id="minus" onclick="dis('-')">-</button></br>
+        <button class="width" id="divide" onclick="dis('/')">/</button>
+        <button class="width" id="multiply" onclick="dis('*')">*</button>
+        <button class="width" id="dot" onclick="dis('.')">.</button></br>
+        <button class="Reset" id="clr" onclick="clr()">Reset</button>
+        <button class="equal" id="ans" onclick="solve()">=</button>
+    </div>
+    <script src="./calculat.js"></script>
+</body>
+</html>
